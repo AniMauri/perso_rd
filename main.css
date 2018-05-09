@@ -1,0 +1,54 @@
+/* fonts 
+
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+
+*/
+
+html {
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	background-color: #fff;
+	display: flex;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer {
+	z-index: 100;
+	text-align: right;
+	color: #000;
+	font-size: 1.5em;
+	position: relative;
+	bottom: 10;
+	width: 100%;
+	padding: 15px;
+}
+
+.copyright {
+	padding-right: 15px;
+	border-right: 1px solid #797979;
+}
+
+.credits {
+	padding-left: 15px;
+}
+
+a {
+	color: rgba(234, 113, 40, 1);
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 1.4em;
+	color: #000;
+}
+
+h5 {
+	font-size: 1.2em;
+	color: #3aa4a4;
+}
+
+

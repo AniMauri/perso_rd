@@ -1,0 +1,289 @@
+#text-content {
+	width: 100%;
+	max-width: 960px;
+	margin: auto;
+	margin-left: 15px;
+	margin-top: 25px;
+	text-align: justify;
+	font-size: 1.3em;
+	padding: 0px;
+	box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+#text-content h3 {
+	margin-left: 20px;
+}
+
+/* Page d'accueil */
+#home {
+	padding: 20px;
+}
+#home strong {
+	color: rgba(69, 115, 126, 1);
+}
+
+#icons-home {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.icon {
+	color: #000;
+	text-align: center;
+	width: 20%;
+	padding: 15px;
+	padding-bottom: 2px;
+	margin: 10px;
+}
+
+.icon a {
+	color: #000;
+}
+
+.icon:hover,
+.icon:hover a {
+	color: #fff;
+}
+
+#orientation:hover {
+	animation: moveHome1 500ms;
+	-webkit-animation: moveHome1 500ms;
+	animation-fill-mode: forwards;
+}
+
+#lm:hover {
+	animation: moveHome2 500ms;
+	-webkit-animation: moveHome2 500ms;
+	animation-fill-mode: forwards;
+}
+
+#cv:hover {
+	animation: moveHome3 500ms;
+	-webkit-animation: moveHome3 500ms;
+	animation-fill-mode: forwards;
+}
+
+#entretien:hover {
+	animation: moveHome4 500ms;
+	-webkit-animation: moveHome4 500ms;
+	animation-fill-mode: forwards;
+}
+
+
+
+@keyframes moveHome1 {
+	0% {
+		color: #000;
+		background-color: rgba(234, 113, 40, 0);
+	}
+
+	100% {
+		color: #fff;
+		background-color: rgba(234, 113, 40, 1);
+	}
+}
+
+@keyframes moveHome2 {
+	0% {
+		color: #000;
+		background-color: rgba(69, 115, 126, 0);
+	}
+
+	100% {
+		color: #fff;
+		background-color: rgba(69, 115, 126, 1);
+	}
+}
+
+@keyframes moveHome3 {
+	0% {
+		color: #000;
+		background-color: rgba(255, 200, 17, 0);
+	}
+
+	100% {
+		color: #fff;
+		background-color: rgba(255, 200, 17, 1);
+	}
+}
+
+@keyframes moveHome4 {
+	0% {
+		color: #000;
+		background-color: rgba(179, 179, 28, 0);
+	}
+
+	100% {
+		color: #fff;
+		background-color: rgba(179, 179, 28, 1);
+	}
+}
+
+/*autres pages*/
+
+#banner {
+	width: 100%;
+	max-width: 960px;
+	margin: 0px;
+}
+
+#banner img {
+	width: 100%;
+	margin: 0px;
+}
+
+#building-img {
+	width: 100%;
+	max-width: 960px;
+}
+
+/*citations et exemples*/
+
+.quote, .exemple {
+	padding-left: 10px;
+	margin-left: 20px;
+	font-size: 1em;
+}
+
+.quote {
+	border-left: 1px solid #797979;
+	font-style: italic;
+	color: #797979;
+}
+
+.exemple {
+	border-left: 1px solid rgba(69, 115, 126, 1);
+	color: rgba(69, 115, 126, 1);
+}
+
+/*tableaux*/
+
+.page-content {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+.page-content p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content-txt ul {
+	list-style-image: url(../img/right-arrow.png);
+}
+
+.content-txt,
+.content-img {
+	padding: 25px;
+	margin: 0px;
+	font-size: 0.9em;
+	text-align: justify;
+	overflow: hidden;
+}
+
+.content-txt {
+	width: 50%;
+}
+
+.content-img {
+	width: 50%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.comment {
+	font-style: italic;
+	color: #797979;
+}
+
+/*imgs projet pro*/
+#content-img-pp1 {
+	background-image: url(../img/contenus/pp-panneaux.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+#content-img-pp2 {
+	background-image: url(../img/contenus/pp-route.jpg);
+	background-position: center;
+	background-size: contain;
+}
+
+#content-img-pp3 {
+	background-image: url(../img/contenus/pp-sommet.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+/*imgs lm*/
+#content-img-lm1 {
+	background-image: url(../img/contenus/lm-machine.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+#content-img-lm2 {
+	background-image: url(../img/contenus/lm-steps.jpg);
+	background-position: center;
+	background-size: contain;
+}
+
+#content-img-lm3 {
+	background-image: url(../img/contenus/lm-clock.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+/*imgs cv*/
+#content-img-cv1 {
+	background-image: url(../img/contenus/cv-strategy.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+#content-img-cv2 {
+	background-image: url(../img/contenus/cv-agencement.jpg);
+	background-position: center;
+	background-size: contain;
+}
+
+#content-img-cv3 {
+	background-image: url(../img/contenus/cv-bureau.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+/*imgs entretien*/
+#content-img-entretien1 {
+	background-image: url(../img/contenus/entretien-micro.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+#content-img-entretien2 {
+	background-image: url(../img/contenus/entretien-notes.jpg);
+	background-position: center;
+	background-size: contain;
+}
+
+#content-img-entretien3 {
+	background-image: url(../img/contenus/entretien-smile.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+.credits {
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.title_credits {
+	font-weight: bold;
+	color: #797979;
+}

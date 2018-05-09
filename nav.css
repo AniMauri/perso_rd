@@ -1,0 +1,157 @@
+#nav_responsive {
+	display: none;
+}
+
+#aside {
+	background: url("../img/bg.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-right: 20px;
+	width: 20%;
+	min-height: 100vh;
+	border-right: 0.5px solid #fff;
+	padding-right: 25px;
+}
+
+#aside img {
+	width: 175px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: auto;
+}
+
+#aside ul {
+	width: 290px;
+	list-style-type: none;
+	font-size: 1.3em;
+	padding-left: 0px;
+}
+
+#aside ul li {
+	margin-left: 0px;
+}
+
+#nav {
+	position: fixed;
+}
+
+.nav-link div{
+	height: 50px;
+	width: 90%;
+	padding-left: 20px;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+.fa-home:hover {
+	color: rgb(234, 113, 40)
+}
+
+.nav-link div i {
+	margin-right: 10px;
+}
+
+.nav-link div a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#link1:hover {
+	animation: moveMenu1 1000ms;
+	-webkit-animation: moveMenu1 1000ms;
+	animation-fill-mode: forwards;
+}
+
+#link2:hover {
+	animation: moveMenu2 1000ms;
+	-webkit-animation: moveMenu2 1000ms;
+	animation-fill-mode: forwards;
+}
+
+#link3:hover {
+	animation: moveMenu3 1000ms;
+	-webkit-animation: moveMenu3 1000ms;
+	animation-fill-mode: forwards;
+}
+
+#link4:hover {
+	animation: moveMenu4 1000ms;
+	-webkit-animation: moveMenu4 1000ms;
+	animation-fill-mode: forwards;
+}
+
+.link1-open {
+	background-color: rgba(234, 113, 40, 1);
+}
+
+.link2-open {
+	background-color: rgba(69, 115, 126, 1);
+}
+
+.link3-open {
+	background-color: rgba(255, 200, 17, 1);
+}
+
+.link4-open {
+	background-color: rgba(179, 179, 28, 1);
+}
+
+
+@keyframes moveMenu1 {
+    0% {
+        transform: translateX(0px);
+		background-color: rgba(234, 113, 40, 0);
+    }
+	
+    100% {
+        transform: translateX(20px);
+		background-color: rgba(234, 113, 40, 0.8);
+    }
+}
+
+@keyframes moveMenu2 {
+    0% {
+        transform: translateX(0px);
+		background-color: rgba(69, 115, 126, 0);
+    }
+	
+    100% {
+        transform: translateX(20px);
+		background-color: rgba(69, 115, 126, 0.8);
+    }
+}
+
+@keyframes moveMenu3 {
+    0% {
+        transform: translateX(0px);
+		background-color: rgba(255, 200, 17, 0);
+    }
+	
+    100% {
+        transform: translateX(20px);
+		background-color: rgba(255, 200, 17, 0.8);
+    }
+}
+
+@keyframes moveMenu4 {
+    0% {
+        transform: translateX(0px);
+		background-color: rgba(179, 179, 28, 0);
+    }
+	
+    100% {
+        transform: translateX(20px);
+		background-color: rgba(179, 179, 28, 0.8);
+    }
+}
+
+
+@keyframes menuOut {
+    0% {
+        transform: translateX(-45%);
+    }
+	
+    100% {
+        transform: translateX(0);
+    }
+}
